@@ -1,0 +1,41 @@
+@import "../../styles/theme.scss";
+
+.navBar {
+  color: $white;
+  background-color: $blue;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navBar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navBar__container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navBar__container h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.navBar__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  gap: 3rem;
+}
+
+.navBar__left__tag {
+  display: flex;
+  gap: 0.5rem;
+}
